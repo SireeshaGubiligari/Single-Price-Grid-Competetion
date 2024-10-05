@@ -1,0 +1,139 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d9cdb;
+  border-radius: 10px;
+  color: white;
+}
+
+.intro-heading {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.bold-green {
+  font-weight: bold;
+  color: #34c759;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.grey {
+  color: #dcdcdc;
+  font-size: 1rem;
+}
+
+/* Subscription Section */
+.subscript {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.opacity {
+  opacity: 0.7;
+}
+
+.font-size {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.lg-white {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d9cdb;
+}
+
+.btn-lg {
+  background-color: #34c759;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-lg:hover {
+  background-color: #28a745;
+}
+
+/* Why Us Section */
+.why-us {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.why-us ul li {
+  padding: 10px 0;
+  font-size: 1.1rem;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.why-us ul li:last-child {
+  border-bottom: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+footer a {
+  color: #2d9cdb;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #1b82bd;
+}
