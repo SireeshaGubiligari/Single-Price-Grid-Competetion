@@ -1,2 +1,2 @@
 # Single Price Grid Competetion
- I created this website using Html and css
+ I created this web page using Html and css
